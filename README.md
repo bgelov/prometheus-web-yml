@@ -10,7 +10,7 @@ When you enter username and password, you need waiting 10 seconds timeout for bc
 ## Example of a generated file
 ```
 basic_auth_users:
-  test:$2y$17$Ac2deeUOLKZSP2L81awluuTAiisMp46T4NTJ0MX3tpfPXC3MUVl8G
+  test: $2y$17$Ac2deeUOLKZSP2L81awluuTAiisMp46T4NTJ0MX3tpfPXC3MUVl8G
 ```
 
 ## Why is it necessary?
