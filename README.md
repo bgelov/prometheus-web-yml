@@ -7,6 +7,13 @@ When you enter username and password, you need waiting 10 seconds timeout for bc
 - If there is a web.yml file, you will be prompted to either recreate it or add credentials to the end of the file.
 - If there is no web.yml file, a new file will be generated.
 
+After, you need add web.yml to Prometheus configuration:
+```
+--web.config.file=/etc/prometheus/web.yml
+```
+
+Prometheus documentations about basic auth: [https://prometheus.io/docs/guides/basic-auth/](https://prometheus.io/docs/guides/basic-auth/)
+
 ## Example of a generated file
 ```
 basic_auth_users:
