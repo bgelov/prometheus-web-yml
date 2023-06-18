@@ -4,7 +4,7 @@ set -Eeuo pipefail
 echo "Generation web.yml for Prometheus basic authentication."
 echo "Enter username:"
 read htpasswd_username
-echo "Generating (~10 sec)..."
+echo "Run htpasswd generator..."
 htpasswd_string=$(htpasswd -nBC 12 "" | tr -d ':\n')
 
 echo "Creating web.yml..."
